@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Earthquake Monitor</string>
+    <string name="magnitude">%.2f</string>
+    <string name="richter">Ritcher</string>
+    <string name="longitude">Longitude</string>
+    <string name="get_longitude">%.4f</string>
+    <string name="latitude">Latitude</string>
+    <string name="get_latitude">%.4f</string>
+
+</resources>
