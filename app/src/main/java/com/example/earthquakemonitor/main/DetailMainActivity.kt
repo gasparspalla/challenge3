@@ -25,7 +25,7 @@ class DetailMainActivity:AppCompatActivity() {
 
         binding.magnitudeText.text=eartquake.magnitude.toString()
         binding.longitudeText.text=getString(R.string.get_longitude, eartquake.longitude)
-        Log.d("LONGITUDE",eartquake.longitude.toString())
+
         binding.latitudeText.text=getString(R.string.get_latitude, eartquake.latitude)
         binding.placeText.text=eartquake.place
 

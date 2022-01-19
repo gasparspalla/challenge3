@@ -40,7 +40,7 @@ class EqAdapter(private val context: Context):ListAdapter<Eartquake, EqAdapter.E
     inner class EqViewHolder(private val binding: EqListItemBinding):RecyclerView.ViewHolder(binding.root){
 
         fun bind(eartquake: Eartquake){
-            Log.d("LONGITUDE",eartquake.longitude.toDouble().toString())
+            Log.d("LONGITUDE",eartquake.longitude.toString())
             binding.eqMagnitude.text= context.getString(R.string.magnitude, eartquake.magnitude)
             binding.eqPlace.text=eartquake.place
             binding.root.setOnClickListener{
